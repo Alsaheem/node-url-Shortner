@@ -5,7 +5,7 @@ const Shortner = require("../models/shortner");
 router.get("", (req, res) => {
   res.render("index", {
     title: "URL Shortner",
-    heading: "Shorten your urlas fast as the speed of light",
+    heading: "Shorten your url`s with the speed of light",
     name: "Alsaheem",
   });
 });
